@@ -1,2 +1,8 @@
 Hello world
 another line
+
+Update: fetching of text is instant. however, it is not in REAL TIME and a github issue.
+Not an issue per se, but rather the nature of updating raw text files coming from a massive network.
+default cache is around 5 minutes before it is cleared.
+
+Adding ?token=$(date +%s) updates the raw file temporarily on a browser, but not for the game.

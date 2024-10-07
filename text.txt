@@ -14,3 +14,8 @@ update: added ?token=$(date +%s) to the url. surprisingly, it handles it pretty 
 
 Update: setting the repository to private makes the file inaccessible in the game. Reason, 404 client error: not found.
 adding the randomly generated token from the url after setting the repo to private to the code might fix this, but this might also pose a security vulnerability.
+
+Update: each time this file is updated in a private repository, the token in the url changes, making this very impractical to use for the project.
+will have to look for a different source.
+
+- END OF TESTING -

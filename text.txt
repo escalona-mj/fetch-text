@@ -6,3 +6,6 @@ Not an issue per se, but rather the nature of updating raw text files coming fro
 default cache is around 5 minutes before it is cleared.
 
 Adding ?token=$(date +%s) updates the raw file temporarily on a browser, but not for the game.
+
+Update: i was mistaken. fetching of text is instant and real time. It probably depends on how much text is added on a file before the raw text is updated.
+will have to look on this for another try.

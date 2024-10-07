@@ -11,3 +11,6 @@ Update: i was mistaken. fetching of text is instant and real time. It probably d
 will have to look on this for another try.
 
 update: added ?token=$(date +%s) to the url. surprisingly, it handles it pretty well.
+
+Update: setting the repository to private makes the file inaccessible in the game. Reason, 404 client error: not found.
+adding the randomly generated token from the url after setting the repo to private to the code might fix this, but this might also pose a security vulnerability.
